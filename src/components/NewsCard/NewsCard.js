@@ -8,6 +8,8 @@ export const NewsCard = ({article:{ description, publishedAt, source, title, url
     const classes = useStyles();
 
     
+
+    
     return (
         <Card  className={classes.card}>
           <CardActionArea href={url} target="_blank">       
