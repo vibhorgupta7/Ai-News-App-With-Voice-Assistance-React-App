@@ -8,9 +8,9 @@ const App = () => {
     useEffect(()=>{
         alanBtn({
             key: alanKey,
-            onCommand: ({ command }) => {
-                    if(command === 'test command'){
-                        alert('This code was executed');
+            onCommand: ({ command, articles}) => {
+                    if(command === 'newHeadlines'){
+                        console.log(articles);
                     }
             }
         });
