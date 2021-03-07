@@ -17,5 +17,15 @@ export default makeStyles({
   },
   container: {
     padding: '0 5%', width: '100%', margin: 0,
+  },appBar: {
+    borderRadius: 15,
+    margin: '90px 0',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
+  heading: {
+    color:  '#6600ff',
+  }
 });
