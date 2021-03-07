@@ -8,7 +8,7 @@ const alanKey='02c73ee0ad51271f7d61f45d31e434aa2e956eca572e1d8b807a3e2338fdd0dc/
 
 const App = () => { 
     const[newsArticles,setNewsArticles] = useState([]);
-
+    const[activeArticle,setActiveArticle]=useState(-1);            // index of active article while reading
     const classes = useStyles();
 
     useEffect(()=>{
@@ -17,6 +17,10 @@ const App = () => {
             onCommand: ({ command, articles}) => {
                     if(command === 'newHeadlines'){
                         setNewsArticles(articles);
+                        setActiveArticle(-1);
+                    }
+                    else if(command === 'highlight'){
+                        setActiveArticle((prevActiveArticle)=> prevActiveArticle + 1);
                     }
             }
         });
@@ -31,7 +35,7 @@ const App = () => {
             </div>
 
             <h1>Alan AI News App</h1>
-            <NewsCards articles={newsArticles}/>
+            <NewsCards articles={newsArticles} activeArticle={activeArticle}/>
         </div>
     )
 
