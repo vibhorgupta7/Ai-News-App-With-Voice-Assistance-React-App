@@ -1,7 +1,9 @@
 # Live News App with Voice Assistance to Give Commands.
 ### [Click here to visit the site](https://adoring-kilby-f9f6ab.netlify.app)
 *  Voice Controlled React News Application using Alan AI
-![screencapture-chat-application-vibhor-netlify-app-2021-02-18-14_09_21](https://user-images.githubusercontent.com/68294925/108328841-0a603180-71f3-11eb-8bd0-048a37d8b8b8.png)
+*  Press on the Mic Button on the bottom right and give command of what kind of news you want to see. Check the cards to see the format of how to give a command.
+ 
+![screencapture-localhost-3000-2021-03-07-17_00_41](https://user-images.githubusercontent.com/68294925/110252021-6ecc1080-7fa9-11eb-8009-9e64364f08d3.png)
 
 * A Chatting App with functionalities like:
    * Create multiple chat rooms
