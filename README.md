@@ -18,7 +18,7 @@
    * Say 'GO BACK', and the App will redirect to the previous page.
 
 * Technology Used: React, Alan AI.
-* (The backend code is wriiten at  https://alan.app/platform but I have given a snippet of the code that is written in the file Backend_Code.js in the src folder).
+* (I have written the backend code at  https://alan.app/platform but I have given a snippet of the code that is written in the file Backend_Code.js in the src folder).
 
 ![screencapture-localhost-3000-2021-03-07-17_01_32](https://user-images.githubusercontent.com/68294925/110252438-71c80080-7fab-11eb-9266-d18974bcd28b.png)
 
